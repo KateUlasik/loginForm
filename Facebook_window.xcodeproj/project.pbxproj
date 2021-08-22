@@ -16,6 +16,7 @@
 		60A95C5626C3DB2B00408762 /* Facebook_windowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A95C5526C3DB2B00408762 /* Facebook_windowTests.swift */; };
 		60A95C6126C3DB2B00408762 /* Facebook_windowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A95C6026C3DB2B00408762 /* Facebook_windowUITests.swift */; };
 		60A95CF526C9A23700408762 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A95CF426C9A23600408762 /* AboutViewController.swift */; };
+		60A95D1126D25D6F00408762 /* AboutViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A95D1026D25D6F00408762 /* AboutViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		60A95C6026C3DB2B00408762 /* Facebook_windowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_windowUITests.swift; sourceTree = "<group>"; };
 		60A95C6226C3DB2B00408762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60A95CF426C9A23600408762 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		60A95D1026D25D6F00408762 /* AboutViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				60A95C4226C3DB2900408762 /* ViewController.swift */,
 				60A95CF426C9A23600408762 /* AboutViewController.swift */,
 				60A95C4426C3DB2900408762 /* Main.storyboard */,
+				60A95D1026D25D6F00408762 /* AboutViewCell.swift */,
 				60A95C4726C3DB2A00408762 /* Assets.xcassets */,
 				60A95C4926C3DB2A00408762 /* LaunchScreen.storyboard */,
 				60A95C4C26C3DB2A00408762 /* Info.plist */,
@@ -264,6 +267,7 @@
 				60A95C4326C3DB2900408762 /* ViewController.swift in Sources */,
 				60A95C3F26C3DB2900408762 /* AppDelegate.swift in Sources */,
 				60A95CF526C9A23700408762 /* AboutViewController.swift in Sources */,
+				60A95D1126D25D6F00408762 /* AboutViewCell.swift in Sources */,
 				60A95C4126C3DB2900408762 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

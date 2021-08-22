@@ -28,17 +28,35 @@ class ViewController: UIViewController, UITextFieldDelegate {
         someText2.delegate = self
     }
     
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        let someText1IsEmpty = someText1.text?.isEmpty
-        let someText2IsEmpty = someText2.text?.isEmpty
-        
-        if someText1IsEmpty == false, someText2IsEmpty == false {
-            loginOutlet.isUserInteractionEnabled = true
-        } else {
-            loginOutlet.isUserInteractionEnabled = false
+//    extension ViewController: UITextFieldDelegate {
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+            let login = someText1.text ?? ""
+            let password = someText2.text ?? ""
+            
+            if login.isEmpty == false, password.isEmpty == false {
+                loginOutlet.isUserInteractionEnabled = true
+            } else {
+                loginOutlet.isUserInteractionEnabled = false
+            }
+             
+            print("CALLED!!!")
+            
+            return true
         }
-     
-    }
+//    }
+    
+    
+//    func textFieldDidEndEditing(_ textField: UITextField) {
+//        let someText1IsEmpty = someText1.text?.isEmpty
+//        let someText2IsEmpty = someText2.text?.isEmpty
+//
+//        if someText1IsEmpty == false, someText2IsEmpty == false {
+//            loginOutlet.isUserInteractionEnabled = true
+//        } else {
+//            loginOutlet.isUserInteractionEnabled = false
+//        }
+//
+//    }
 
     
 func forgotPassword(_ sender: Any) {
