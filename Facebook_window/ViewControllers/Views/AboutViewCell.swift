@@ -28,4 +28,9 @@ class AboutViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    func configure(item: MyMetaData) {
+        imageTitelMain.text = item.title
+        imageSubtitle.text = item.subtitle + " " + "id:" + String(item.id)
+    }
+    
 }
