@@ -30,33 +30,6 @@ class AboutViewController: UIViewController {
         
         reloadFromServer()
         
-        
-        //extension AboutViewController: UITableViewDataSource {
-        //
-        //    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        //        return 10
-        //    }
-        //
-        //    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        //        let cell = UITableViewCell(frame: .zero)
-        //        cell.contentView.layer.borderWidth = 2
-        //        cell.contentView.layer.borderColor = UIColor.blue.cgColor
-        //
-        //        let label = UILabel(frame: .zero)
-        //        label.text = "Name of this person"
-        //        label.textColor = UIColor.black
-        //        label.translatesAutoresizingMaskIntoConstraints = false
-        //        label.backgroundColor = .green
-        //
-        //        cell.contentView.addSubview(label)
-        //
-        //
-        //        label.centerXAnchor.constraint(equalTo: cell.contentView.centerXAnchor).isActive = true
-        //        label.centerYAnchor.constraint(equalTo: cell.contentView.centerYAnchor).isActive = true
-        //        label.widthAnchor.constraint(equalToConstant: 100).isActive = true
-        //        label.heightAnchor.constraint(equalToConstant: 20).isActive = true
-        //
-        //        return cell
     }
     
     //
@@ -121,12 +94,6 @@ class AboutViewController: UIViewController {
     }
 }
 
-
-//    extension AboutViewController: UITableViewDelegate {
-//        private func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-//            return CGFloat (70 + indexPath.row + 115)
-//        }
-//    }
 
 extension AboutViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) ->  Int {
