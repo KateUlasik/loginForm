@@ -24,6 +24,8 @@ class MainViewController: UIViewController, UITextFieldDelegate {
             let newViewController = storyboard.instantiateViewController(withIdentifier: "AboutViewControllerIdentifire")
             self.present(newViewController, animated: true, completion: nil)
             
+            
+            
         } else {
             let errorViewController = ErrorViewController(nibName: "ErrorViewController", bundle: nil)
             
